@@ -1,0 +1,55 @@
+body{
+    background-color: #9999ff;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#title{
+    color: #ffff99;
+    text-align: center;
+    font-size: 7rem;
+    letter-spacing: 4rem;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#number-counter{
+    color: black;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family:monospace;
+    font-style: normal;
+    position: relative;
+    bottom: 100px;
+
+}
+#btn-group{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: row;
+    position: relative;
+    bottom: 200px;
+
+}
+.btn-grp{
+    color: black;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    margin-right: 40px;
+    margin-left: 70px;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 10px;
+    border: 4px solid   #c4ff4d;
+
+}
+.btn-grp:hover{
+    background-color:  #99cc00;
+}
